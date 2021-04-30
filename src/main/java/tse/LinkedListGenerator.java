@@ -134,7 +134,7 @@ public class LinkedListGenerator {
 		File currDir = new File(".");
 		String path = currDir.getAbsolutePath();
 		System.out.println(path);
-		String fileLocation = path.substring(0, path.length() - 1) + "hppLL.xlsx";
+		String fileLocation = path.substring(0, path.length() - 1) + "hppLL"+(int) Math.random() * 10+".xlsx";
 
 		FileOutputStream outputStream;
 		try {
