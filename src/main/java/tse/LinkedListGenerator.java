@@ -36,25 +36,6 @@ public class LinkedListGenerator {
 	}
 
 
-	/**
-	 * 
-	 * @param k
-	 * @return a contiguous linked list of random integers
-	 */
-//	public static LinkedList<Integer> makeCLinkedList(int k) {
-//		int s;
-//		int length = (int) Math.pow(2, k) / 4;
-//		Integer[] list = new Integer[length];
-//		for (int i = 0; i < length; i++) {
-//			s = (int) Math.random() * 100;
-//			list[i] = s;
-//		}
-//		LinkedList<Integer> result = new LinkedList<Integer>();
-//		for (int i = 0; i < list.length; i++) {
-//			result.add(list[i]);
-//		}
-//		return result;
-//	}
 	
 	/**
 	 * 
@@ -161,7 +142,6 @@ public class LinkedListGenerator {
 			workbook.write(outputStream);
 			workbook.close();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
